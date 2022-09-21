@@ -18,3 +18,43 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+.description {
+  margin-left: 5px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.country-info-features {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+
+.country-info-parameters {
+  font-weight: 400;
+  font-size: 18px;
+  color: green;
+}
